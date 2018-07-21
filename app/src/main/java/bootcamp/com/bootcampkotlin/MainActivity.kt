@@ -10,6 +10,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        ExamplesPairsAndTriples()
+
+        val testList = listOf(11,12,13,14,15,16,17,18,19,20)
+        Log.d("Reverse List : ",reveserList(testList))
+    }
+
+    private fun reveserList(testList: List<Int>): String? {
+        val result = mutableListOf<Int>()
+
+        for (i in 0..testList.size - 1){
+            result.add(testList[testList.size - i - 1])
+        }
+        return result.toString()
+    }
+
+    /*Pair Example: Here is your book The Phoenix Project by Bill
+     Triples Example: Here is your book The Phoenix Project by Bill written in 2001
+    * */
+    private fun ExamplesPairsAndTriples() {
         val book = Book("The Phoenix Project", "Bill", 2001)
 
         val bookTitleAuthor = book.getTitleAuthor()
