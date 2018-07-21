@@ -1,5 +1,8 @@
 package bootcamp.com.bootcampkotlin
 
+import Aquarium.SimpleSpice
+import Aquarium.Spice
+import Aquarium.buildAquarium
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
@@ -9,11 +12,36 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        buildAquarium()
+
+        SpicesExample()
 
         ExamplesPairsAndTriples()
 
         val testList = listOf(11,12,13,14,15,16,17,18,19,20)
         Log.d("Reverse List : ",reveserList(testList))
+
+    }
+
+    private fun SpicesExample() {
+
+        val simpleSpice = SimpleSpice()
+        println("${simpleSpice.name} ${simpleSpice.heat}")
+
+        val spices1 = listOf(
+                Spice("curry", "mild"),
+                Spice("pepper", "medium"),
+                Spice("cayenne", "spicy"),
+                Spice("ginger", "mild"),
+                Spice("red curry", "medium"),
+                Spice("green curry", "mild"),
+                Spice("hot pepper", "extremely spicy")
+        )
+
+        val spice = Spice("cayenne", spiciness = "spicy")
+        val spicelist = spices1.filter {it.heat < 5}
+        fun makeSalt() = Spice("Salt")
+
     }
 
     private fun reveserList(testList: List<Int>): String? {
