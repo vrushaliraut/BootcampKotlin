@@ -1,8 +1,6 @@
 package bootcamp.com.bootcampkotlin
 
-import Aquarium.SimpleSpice
-import Aquarium.Spice
-import Aquarium.buildAquarium
+import Aquarium.*
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
@@ -16,11 +14,23 @@ class MainActivity : AppCompatActivity() {
 
         SpicesExample()
 
+        //Abstarct class and Interface
+        makeFish()
+
         ExamplesPairsAndTriples()
 
         val testList = listOf(11,12,13,14,15,16,17,18,19,20)
         Log.d("Reverse List : ",reveserList(testList))
 
+    }
+
+    private fun makeFish() {
+        val shark = Shark()
+        val costomus = Plecostomus()
+
+        Log.d("","Shark : ${shark.color}, Plecostomus : ${costomus.color}")
+        shark.eat()
+        costomus.eat()
     }
 
     private fun SpicesExample() {
