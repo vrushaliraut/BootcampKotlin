@@ -3,7 +3,7 @@ package Decorations
 //Object class
 object Mobidick{
     val author = "sdsd"
-    fun jump{
+    fun jump(){
 
     }
 }
@@ -22,7 +22,7 @@ enum class Color(val rgb : Int){
 //** greate for returning success or error from API Network
 sealed class Seal
 
-//oth type of Seal - as all are in same class kotline file know it's Subclass
+//both type of Seal - as all are in same class kotline file know it's Subclass
 class SeaLion : Seal()
 class Walrus : Seal()
 
@@ -32,3 +32,20 @@ fun matchSeal(seal: Seal):String{
         is  Walrus -> "walrus"
     }
 }
+
+
+
+
+interface SpiceColor {
+    val color: Spices.Color
+}
+
+object YellowSpiceColor : SpiceColor {
+    override val color: Spices.Color
+        get() = color.Yellow
+}
+
+//Making Spice a sealed class helps keep all the spices together in one file.
+sealed class Spice()
+
+

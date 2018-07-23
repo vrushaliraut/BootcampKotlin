@@ -1,5 +1,7 @@
 package Spices
 
+import android.graphics.Color.YELLOW
+
 
 fun main(args: Array<String>){
 
@@ -45,4 +47,6 @@ interface Color{
 object CurryColor : Color{
     override val color = "yellow"
 }
+
+
 
