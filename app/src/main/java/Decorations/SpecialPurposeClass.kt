@@ -37,12 +37,12 @@ fun matchSeal(seal: Seal):String{
 
 
 interface SpiceColor {
-    val color: Spices.Color
+   // val color: Spices.Color
 }
 
 object YellowSpiceColor : SpiceColor {
-    override val color: Spices.Color
-        get() = color.Yellow
+    /*override val color: Spices.Color
+        get() = "sscs"*/
 }
 
 //Making Spice a sealed class helps keep all the spices together in one file.
