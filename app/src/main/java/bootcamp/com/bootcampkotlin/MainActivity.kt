@@ -10,6 +10,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val collection = Collections()
-        val constant = Constant()
+
+        //enum, constants, data classes
+        val constant = Book()
+
+        //Extension Functions
+        val puppy = Puppy()
     }
 }

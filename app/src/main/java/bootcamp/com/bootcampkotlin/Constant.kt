@@ -39,6 +39,7 @@ const val MAX_NUMBER_BOOKS = 20
 
 class Book {
 
+    var pages = null
     fun canBorrow(user: User): Boolean {
         return user.hasBooks < MAX_NUMBER_BOOKS
     }
