@@ -1,5 +1,7 @@
 package bootcamp.com.bootcampkotlin
 
+import Buildings.Building
+import Buildings.Wood
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 
@@ -16,5 +18,9 @@ class MainActivity : AppCompatActivity() {
 
         //Extension Functions
         val puppy = Puppy()
+
+        //Generics
+        Building(Wood()).build()
     }
+
 }
