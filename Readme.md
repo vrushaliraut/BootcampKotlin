@@ -43,4 +43,5 @@ Build Types - Environment
 ## Project aliases, guidelines, dependencies and requirements
 
 ## Reference i use while learning Kotlin
-1. https://pspdfkit.com/blog/2018/simple-kotlin-tricks/#
+1. https://classroom.udacity.com/courses/ud9011/lessons/c1e0188b-4ae4-45cc-896e-7a7d6c687dd3/concepts/727e79d0-dd36-4efb-a317-a34e67dade97
+2. https://pspdfkit.com/blog/2018/simple-kotlin-tricks/#
