@@ -1,5 +1,6 @@
 package bootcamp.com.bootcampkotlin
 
+import Buildings.Brick
 import Buildings.Building
 import Buildings.Wood
 import android.os.Bundle
@@ -21,6 +22,11 @@ class MainActivity : AppCompatActivity() {
 
         //Generics
         Building(Wood()).build()
+
+        //Brick does not having companion object so initialised here
+        val brick = Brick()
+        isSmallBuilding(Building(brick))
+        genericsExample()
     }
 
 }

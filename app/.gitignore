@@ -10,3 +10,4 @@ build
 **/com_crashlytics_export_strings.xml
 fabric.properties
 .idea/caches/
+.idea/misc.xml

@@ -10,7 +10,7 @@ class Wood() : BaseBuildingMaterial() {
     override val numberNeeded = 4
 }
 
-class Brick() : BaseBuildingMaterial() {
+class Brick : BaseBuildingMaterial() {
     override val numberNeeded =8
 }
 
