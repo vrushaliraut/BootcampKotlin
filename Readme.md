@@ -1,8 +1,22 @@
-# Bootcamp Kotlin
----
+# Bootcamp Kotlin For Android -
 
-## Getting Started
+    - Kotlin is a great fit for developing Android applications,
+     bringing all of the advantages of a modern language to the Android platform without introducing any new restrictions:
+
+    - This project is based on Kotlin bootcamp course  provided by Udacity. It would boost kotlin exploration by the end of this project.
+
+    - It covers most of the concept of Kotlin language along with small examples.
+
+
+## Getting Started -
+
+
 ### Prerequisites
+    1. Android Studio
+    2. Install Android SDK
+    3. Install gradle
+
+### Installing
 1) Install Java
     - [Direct Link](https://www.java.com/en/download/help/mac_install.xml)
                         (or)
@@ -34,6 +48,10 @@
 ### Clone the repository
 ```git clone https://github.com/vrushaliraut/BootcampKotlin.git```
 
+### Deployment
+   1. `./gradlew clean assembleDebug` - Compile
+   2. `./gradlew clean installDebug`  - Run on emulator or mobile device
+
 ## Build Types, Flavours, Dimensions
 
 Build Types - Environment
@@ -43,5 +61,13 @@ Build Types - Environment
 ## Project aliases, guidelines, dependencies and requirements
 
 ## Reference i use while learning Kotlin
-1. https://classroom.udacity.com/courses/ud9011/lessons/c1e0188b-4ae4-45cc-896e-7a7d6c687dd3/concepts/727e79d0-dd36-4efb-a317-a34e67dade97
-2. https://pspdfkit.com/blog/2018/simple-kotlin-tricks/#
+1. Kotlin Bootcamp course from Udacity - `https://classroom.udacity.com/courses/ud9011/lessons/c1e0188b-4ae4-45cc-896e-7a7d6c687dd3/concepts/727e79d0-dd36-4efb-a317-a34e67dade97`
+2. Kotlin standard library - https://kotlinlang.org/api/latest/jvm/stdlib/index.html
+3. https://kotlinlang.org/docs/kotlin-docs.pdf
+4. https://pspdfkit.com/blog/2018/simple-kotlin-tricks/#
+
+## Authors
+   - Vrushali S. Raut
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
