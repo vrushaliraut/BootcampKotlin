@@ -66,7 +66,7 @@ Build Types - Environment
 3. https://kotlinlang.org/docs/kotlin-docs.pdf
 4. https://pspdfkit.com/blog/2018/simple-kotlin-tricks/#
 
-## Authors
+## Author
    - Vrushali S. Raut
 
 ## License
