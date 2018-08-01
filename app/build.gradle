@@ -14,7 +14,7 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "bootcamp.com.bootcampkotlin"
-        minSdkVersion 15
+        minSdkVersion 24
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
